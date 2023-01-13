@@ -274,7 +274,7 @@ final class FaceReplacementWorker {
                     plane.cornerRadius = 0
                     plane.firstMaterial?.lightingModel = .constant
 
-                    // TODO: Fix size
+                    // FIXME: image ratio
                     plane.firstMaterial?.diffuse.contents = overlayImage
 
                     let planeNode = SCNNode(geometry: plane)
