@@ -29,7 +29,6 @@ enum FaceReplacementWorkerError: Error {
     case readingCancelled
     case inconsistentState
     case missingFrameImageBuffer
-    case missingSegmentationResult
     case unableToConvertImageToPixelBuffer
     case encoderFailed(OSStatus)
     case failedToWrite(AVAssetWriter.Status)
@@ -252,7 +251,7 @@ final class FaceReplacementWorker {
                 throw FaceReplacementWorkerError.missingFrameImageBuffer
             }
 
-            // Performing Person Segmentation
+            // Performing Face Detection
 
             try requestHandler.perform([request])
 

@@ -12,9 +12,9 @@
                 <application id="hnw-xV-0zn" sceneMemberID="viewController">
                     <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
                         <items>
-                            <menuItem title="Person Segmentation" id="1Xt-HY-uBw">
+                            <menuItem title="Face Replacement" id="1Xt-HY-uBw">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="Person Segmentation" systemMenu="apple" id="uQy-DD-JDr">
+                                <menu key="submenu" title="Face Replacement" systemMenu="apple" id="uQy-DD-JDr">
                                     <items>
                                         <menuItem title="About FaceReplacement" id="5kV-Vb-QxS">
                                             <modifierMask key="keyEquivalentModifierMask"/>
